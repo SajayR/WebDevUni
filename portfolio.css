@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #f6f5f7;
+    color: #333;
+}
+
+.portfolio-container {
+    width: 768px;
+    max-width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+                0 10px 10px rgba(0,0,0,0.22);
+    overflow: hidden;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+}
+.profile-header {
+    display: flex;
+     /* Aligns items vertically in the center */
+    align-items: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.profile-text {
+    flex-grow: 1; /* Allows the text container to grow if needed */
+    padding-left: 2rem; /* Adds spacing between image and text */
+    text-align: left; /* Aligns the text to the left */
+    min-width: 0;
+}
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50px; /* Keeps the image as a curved square */
+    border: 5px solid #FF4B2B;
+}
+.profile-image-container {
+    flex-shrink: 0; /* Prevents the image container from shrinking */
+    padding: 1rem; /* Adds padding around the image */
+    display: flex;
+    flex-direction: column; /* Stacks the image and description vertically */
+    align-items: center; /* Aligns image and description in the center */
+}
+
+.profile-description {
+    margin-top: 1rem; /* Space between name and description */
+    flex-wrap: wrap; /* Allows the text to wrap as needed */
+}
+
+nav {
+    background: #FF416C;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FF4B2B;
+}
+
+section {
+    padding: 2rem;
+    border-top: 1px solid #eee;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+
+h1 {
+    margin: 0 0 0.5rem 0; /* Adds some spacing below the h1 */
+}
